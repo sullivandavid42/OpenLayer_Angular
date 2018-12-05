@@ -1,0 +1,15 @@
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12">
+      <h2> Mon Test-Container</h2>
+      <ul class="list-group">
+        <app-component-test test_interpolation="Sullivan"></app-component-test>
+        <app-component-test></app-component-test>
+        <app-component-test></app-component-test>
+      </ul>
+      <button class="btn btn-success" 
+        [disabled]="!isAuth" 
+        (click)="onSustentation()">Arrêter de me sustenter</button>
+    </div>
+  </div>
+</div>
